@@ -1,0 +1,109 @@
+/* ページ全体の基本設定 */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* ヘッダー部分 */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* メインコンテンツ */
+main {
+  padding: 20px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* セクションタイトル */
+h2 {
+  color: #333;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  font-size: 0.9em;
+}
+
+
+.introduceTitle{
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 40px;
+  text-decoration: solid;
+}
+
+
+/* スライダーcss */
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.carousel-window {
+  width: 100%;
+  overflow: hidden;
+}
+
+#carousel-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(255,255,255,0.7);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+
+
+
+
+
+
