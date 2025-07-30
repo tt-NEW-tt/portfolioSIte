@@ -1,4 +1,4 @@
-const images = ['楽天トラベル.png', '複写_サマーセール.png', '複写_リクルート.png'];
+const images = ['img/楽天トラベル.png', 'img/複写_サマーセール.png', 'img/複写_リクルート.png'];
 let currentIndex = 0;
 
 const sliderImage = document.getElementById('sliderImage');
