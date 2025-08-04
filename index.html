@@ -12,23 +12,24 @@
     <h1>Toi's Portfolio Site</h1>
     <nav>
       <ul>
-        <li><a href="#">ホーム</a></li>
-        <li><a href="#">プロフィール</a></li>
-        <li><a href="#">お問い合わせ</a></li>
+        <li><a href="#profile-anchor"">プロフィール</a></li>
+        <li><a href="#works">作品紹介</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
+    <div id="profile-anchor" class="scroll-anchor"></div>
+    <section id="profile">
       <h2>自己紹介</h2>
       <p>駆け出しのwebデザイナー兼バナーデザイナーの「toi」と申します！</p>
-      <p>ここでは私のこれまでの作品を紹介しております。</p>
+      <p>ここでは私のこれまでの模写作品＋オリジナル作品を紹介しております。</p>
       <p>もし興味を持っていただければ各プラットフォームへご連絡ください。</p>
     </section>
   </main>
   
-  <h2 class="introduceTitle">作品紹介</h2>
+  <h2 id="works" class="introduceTitle">作品紹介</h2>
   <div class="carousel">
     <button id="prev">&lt;</button>
     <div class="carousel-window">
@@ -38,6 +39,15 @@
   </div>
 
   <footer>
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <form action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="お名前" required>
+        <input type="email" name="email" placeholder="メールアドレス" required>
+        <textarea name="message" placeholder="お問い合わせ内容" rows="5" required></textarea>
+        <button type="submit">送信</button>
+      </form>
+    </section>  
     <p>&copy; 2025 toi</p>
   </footer>
 </body>
